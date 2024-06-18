@@ -43,10 +43,10 @@ def update(screen, cells, size, with_progress=False):
 
 def main():
     # Get grid dimensions from user
-    #HEIGHT = int(input("Please input the height of the grid: "))
-    #WIDTH = int(input("Please input the width of the grid: "))
-    HEIGHT=300
-    WIDTH=300
+    HEIGHT = int(input("Please input the height of the grid: "))
+    WIDTH = int(input("Please input the width of the grid: "))
+    #HEIGHT=300
+    #WIDTH=300
     pygame.init()
     size = 10
     
